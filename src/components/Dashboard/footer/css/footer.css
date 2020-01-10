@@ -1,0 +1,105 @@
+.about-us-details{
+    font-weight: normal;
+    text-align: justify;
+    font-size: 13px;
+    padding-top: 10px;
+}
+.about-us{
+    border-bottom: 1px solid white;
+    text-align: left;
+    font-weight: normal
+}
+.mainDiv{
+    margin: auto;
+    width: 100%; 
+    /* text-align: center; */
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgb(52,58,62);
+    color: white;
+    font-weight: normal;
+    padding-bottom:40px;
+}
+.inner_main_div{
+    margin: auto;
+    width: 90%;
+    padding-top: 20px;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+}
+.info_about_us{
+    color: #a89d9d;
+}
+.info_about_us ul li:hover{
+color: white;
+}
+.media-butn-row{
+    margin: auto;
+    text-align: center;
+    padding:30px;
+}
+.media-butn-row #fb-img{
+    width:35px;
+    border-radius:30px;
+    background-color: white;
+}
+.media-butn-row #wtsap-img{
+    width:36px;
+    border-radius:30px;
+    background-color: white;
+}
+.copyy{
+    margin: auto;
+    width: 99%;
+}
+.copyy #copy-right{
+    text-align: center;
+}
+#copy-right{
+    font-size: 13px;
+}
+#copy-right a{
+    color: #a89d9d;
+    text-decoration: none;
+}
+#copy-right a:hover{
+    color:white;
+}
+.whatsap-footer-fixed{
+    float:right;
+}
+#mess-icon{
+    width:20px;
+}
+#mess-fixed-img{
+    max-width:110px;
+}
+.fix-col{
+    z-index:1000;
+    position: fixed;
+    left:0;
+    padding-bottom:32px;
+    padding-left:30px;
+    bottom:0;
+}
+.fix-col2{
+    z-index:1000;
+    position: fixed;
+    right:0;
+    padding-bottom:20px;
+    padding-right:30px;
+    bottom:0;
+}
+.fix-col3{
+    z-index:1000;
+    position: fixed;
+    right:0;
+    padding-bottom:20px;
+    padding-right:90px;
+    bottom:0;
+    display: none;
+}
+#whats-fixed-img2{
+    /* background-color: white; */
+    /* border-radius:30px; */
+}

@@ -1,0 +1,20 @@
+.contact-main{
+    margin: auto;
+    width:75%;
+    padding: 20px;
+    background-color:#f5f5f5;
+}
+.contct-heading{
+    text-align:center;
+}
+.contact-main span{
+    color: red;
+}
+.cntct-butn{
+    text-align: center;
+}
+.send-butn{
+    width:50%;
+    border:none;
+    background-color: black;
+}

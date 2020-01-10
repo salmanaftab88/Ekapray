@@ -1,0 +1,102 @@
+.main-Row{
+    margin-left: auto;
+    margin-right: auto;
+    width:75%;
+    padding-top:20px;
+}
+.product-col1 img{
+    width:100%;
+}
+.product-col2 img{
+    width:100%;
+}
+.text-over-product-col1{
+    position: absolute;
+    top: 46%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    /* font-weight:bold; */
+    color:white;
+    font-size:30px;
+    cursor: pointer;
+}
+.text-over-product-col1-h2{
+    cursor: pointer;
+    position: absolute;
+    top: 46%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    /* font-weight:bold; */
+    /* color:white; */
+    font-size:25px;
+    visibility: hidden;
+}
+.product-col1:hover .text-over-product-col1-h2{
+    visibility: visible;
+    color: black;
+}
+.product-col1:hover img{
+    opacity:0.5;
+}
+.product-col1:hover .text-over-product-col1{
+    color: black;
+}
+
+.text-over-product-col2{
+    position: absolute;
+    top: 46%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    /* font-weight:bold; */
+    color:white;
+    font-size:30px;
+    cursor: pointer;
+}
+.text-over-product-col2-h2{
+    cursor: pointer;
+    position: absolute;
+    top: 46%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    /* font-weight:bold; */
+    /* color:white; */
+    font-size:25px;
+    visibility: hidden;
+}
+.product-col2:hover .text-over-product-col2{
+display: none;
+}
+.product-col1:hover .text-over-product-col1{
+    display: none;
+    }
+.product-col2:hover .text-over-product-col2-h2{
+    visibility: visible;
+    color: black;
+}
+.product-col2:hover img{
+    opacity:0.5;
+}
+.product-col2:hover .text-over-product-col2{
+    color: black;
+}
+.Quick-view{
+    visibility: hidden;
+}
+@media only screen and (max-width: 360px) {
+    .main-con .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+   }
+   @media only screen and (max-width: 411px) {
+    .main-con .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+   }
+   @media only screen and (max-width: 414px) {
+    .main-con .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+   }

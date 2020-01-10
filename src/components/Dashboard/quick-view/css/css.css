@@ -1,0 +1,55 @@
+#quick-view-btnn{
+    background-color: #222222;
+    }
+/* .modalBody img{
+    width:50%;
+} */
+#thum-image-1 img{
+    width:20%;
+    position: absolute;
+    top: 23.9%;
+    left:62%;
+    transform: translate(-50%, -50%);
+}
+#thum-image-2 img{
+    width:20%;
+    position: absolute;
+    top: 23.9%;
+    left:85%;
+    transform: translate(-50%, -50%);
+}
+.modal-pic-des{
+    text-align: center;
+    width:49%;
+    position: absolute;
+    top: 60%;
+    left:75%;
+    transform: translate(-50%, -50%);
+}
+.modal-pic-des span del{
+    color: red;
+}
+.footer-butn #butn{
+    background-color:#222222;
+}
+.footer-butn{
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+   .hide-images{
+       display: none !important;
+   }
+   .modal-pic-des{
+    text-align: center;
+    width:100%;
+    /* position: absolute; */
+    /* top: 60%;
+    left:75%; */
+    transform: translate(-75%, -50%);
+   }
+   .modalBody{
+       padding:74px;
+       padding-top: 11px;
+   }
+  }

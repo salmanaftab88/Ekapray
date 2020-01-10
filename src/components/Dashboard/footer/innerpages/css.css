@@ -1,0 +1,16 @@
+.about-main{
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+    padding: 85px;
+    background-color:#f5f5f5;
+}
+.about-main h3{
+    text-align: center;
+}
+.about-main p{
+    line-height:30px;
+}
+.about-us-details ul li a{
+color:white;
+}

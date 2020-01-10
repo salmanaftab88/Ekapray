@@ -1,0 +1,52 @@
+.Main-Con{
+    margin: auto;
+    width: 90%;
+    padding:20px;
+}
+.thum-h .detail-thumb-1 img{
+    width:45%;
+    /* margin-top:10px; */
+    float: left;
+}
+.thum-h .detail-thumb-2 img{
+    margin-left:5px;
+    width:45%;
+    /* margin-top:10px; */
+    /* float: left; */
+}
+.detail-main{
+    text-align: center;
+}
+.BuyNow-butn button{
+    border:0px;
+    color: white;
+    background-color: black;
+    padding:10px;
+    width:100%;
+}
+.contact-link .link{
+    color: rgb(68, 68, 68);
+    text-decoration: underline;
+}
+.prices del{
+    color:red;
+}
+.ReactModal__Overlay{
+    z-index:1001 !important;
+}
+/* .thumbs-light-box{
+    z-index:1100;
+} */
+@media only screen and (max-width: 575px) {
+    .thum-h .detail-thumb-1 img{
+        /* width:45%; */
+        margin-top:10px;
+        /* float: left; */
+    }
+    .thum-h .detail-thumb-2 img{
+        margin-left:5px;
+        /* width:45%; */
+        margin-top:10px;
+        /* float: left; */
+    }
+   }

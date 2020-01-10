@@ -1,0 +1,140 @@
+.topHead .MuiPaper-elevation4 {
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0), 0px 0px 0px 0px rgba(0,0,0,0), 0px 0px 0px 0px rgba(0,0,0,0);
+}
+.topHead{
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    font-family: sans-serif;
+}
+.topHeader-icons{
+    margin-top:3px;
+    width:32%;
+    height: auto;
+}
+.contact-details{
+    text-align: center;
+    width: 32%;
+}
+.contact-details span{
+    font-size:14px;
+}
+.top-right-icons{
+    margin-top:3px;
+    width:32%;
+    height: auto;
+    /* margin-left: 52px; */
+}
+.top-right-icons a:hover{
+    text-decoration: none;
+    color:black;
+}
+.top-right-icons img{
+    height:20px;
+    width: 20px;
+}
+.top-right-icons .cart-pop{
+    float: right;
+}
+.top-right-icons .cart-pop:hover{
+    cursor: pointer;
+}
+#mycart{
+    font-size:14px;
+    margin-top:-14px;
+    display: inline-block;
+}
+#home{
+    margin-right:2px;
+}
+.top-right-icons a{
+    color: black;
+    text-decoration: none;
+    float: right;
+}
+@media (min-width: 600px){
+.topHead .MuiToolbar-regular {
+    min-height: 50px !important;
+}
+}
+@media only screen and (max-width: 980px) {
+    .contact-details{
+        width:100%;
+        text-align: center;
+    }
+    .topHeader-icons{
+        display: none;
+    }
+    /* .top-right-icons{
+        width:13%;
+    } */
+  }
+  @media only screen and (max-width: 344px) {
+    .top-right-icons{
+        width:40%;
+    }
+  }
+  @media only screen and (max-width: 305px) {
+    .top-right-icons{
+        width:50%;
+    }
+  }
+  @media only screen and (max-width: 274px) {
+    .top-right-icons{
+        width:50%;
+    }
+  }
+  @media only screen and (max-width: 208px) {
+    #cart{
+        /* margin-right: 20px; */
+    }
+  }
+  .empty-text-class{
+      padding: 10px;
+  }
+  .cart-dialog .MuiDialog-paperWidthSm{
+      /* overflow-x: hidden !important; */
+      padding:10px;
+      /* margin: auto; */
+     max-width:1000px !important;
+  }
+  .cart-rows{
+      margin: auto;
+      width:100%;
+      padding:50px;
+      /* padding-right:50px; */
+  }
+
+.cart-main-conn{
+    width:600px;
+    height:auto;
+    font-size:13px;
+}
+#cart-pic{
+    width:50px;
+    float: left;
+}
+#cart-item-detail{
+    padding-left:5px;
+    padding-top:12px;
+    float: left;
+    width:47%;
+}
+.add-sub-butn{
+    float: left;
+    width:15%;
+    margin-top: 20px;
+}
+#cart-butn-2{
+width:25px;
+}
+#cart-item-price{
+    width:20%;
+    float: left;
+    margin-top: 24px;
+}
+.del-butn{
+    width:4%;
+    float: left;
+    margin-top:20px;
+}
